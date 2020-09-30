@@ -1,0 +1,31 @@
+@media all and (max-width: 768px) {
+    .part-1 a {
+        margin-bottom: 30px;
+    }
+
+    .tarrif .t-card {
+        width: 100%;
+        float: none;
+    }
+
+    .download .img {
+        margin: auto;
+    }
+
+    .download .ig {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .customers h1 {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-list ul li a {
+        margin-top: 10px;
+    }
+}

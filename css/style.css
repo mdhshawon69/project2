@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+}
+
+/********************** header area **********************/
+header {
+    overflow: hidden;
+}
+
+.nav-area {
+    background: #0f0f0f;
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.nav-list ul li a {
+    padding: 7px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.nav-list ul li a:hover {
+    background: #ffc61a;
+    color: #0f0f0f;
+}
+
+.carousel-caption {
+    color: #ffc61a;
+}
+
+/********************** Sign-up area **********************/
+
+.sign-up {
+    padding: 150px 0;
+    overflow: hidden;
+    background: #ffc61a;
+}
+
+.part-1 h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.part-1 h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.part-1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 35px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.part-2 .page {
+    background: #fff;
+    padding: 0 40px 20px 40px;
+    overflow: hidden;
+}
+
+.book {
+    background: #000;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.part-2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.part-2 h2 span {
+    color: #ffc61a;
+}
+
+.part-2 form {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.part-2 input[type=text] {
+    border: none;
+    border-bottom: 3px solid #ccc;
+    width: 100%;
+    padding: 35px 15px 5px;
+}
+
+.part-2 .vehicle {
+    width: 100%;
+    display: block;
+}
+
+.part-2 input[type=submit] {
+    width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 35px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: inline-block;
+    border: none;
+}
+
+::placeholder {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/****************************** Tarrif area ******************************/
+
+.tarrif {
+    padding: 50px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tarrif h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.tarrif .or {
+    text-transform: uppercase;
+    color: #ffc61a;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tarrif .t-card {
+    float: left;
+    width: 31.33%;
+    text-align: center;
+    background: #f6f6f6;
+    padding: 30px 0 30px;
+    margin: 0 1%;
+}
+
+.tarrif .colum {
+    background-color: #ffc61a;
+}
+
+.tarrif .t-card a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 9px 35px;
+    background: #ffc61a;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.tarrif .t-card .mtm {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 9px 35px;
+    background: #0f0f0f;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.tarrif .t-card h2 {
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.tarrif .t-card h3 {
+    color: #ffc61a;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.tarrif .colum h3 {
+    color: #0f0f0f;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/***************************** wishes area *****************************/
+.wishes {
+    background: url('../image/bg2.jpg');
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.wishes h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    margin-bottom: 50px;
+}
+
+.wishes h2 {
+    text-transform: uppercase;
+    color: #ffc61a;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.media-body p {
+    width: 80%;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+}
+
+.media-body h5 {
+    color: #ffc61a;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.cl-1 {
+    margin: 50px 0 50px;
+}
+
+
+
+.wishes a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 9px 35px;
+    background: #ffc61a;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/**************************** download area ****************************/
+
+.download {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.download h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.download h2 {
+    text-transform: uppercase;
+    color: #ffc61a;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.download h4 {
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.download p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.download .img {
+    margin-left: 130px;
+}
+
+.download .ig {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/****************************** Footer area ******************************/
+
+.footer {
+    background: #ffc61a;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-top: 0;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-top: 0;
+    font-size: 80px;
+}
+
+.footer p {
+    font-weight: 700;
+    color: #0f0f0f;
+}
